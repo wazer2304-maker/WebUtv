@@ -2,10 +2,8 @@
 
 body {
     background: linear-gradient(
-     #2193b0,
-     #6dd5ed,
-     #2193b0,
-     #2193b0
+     #a193b0,
+     #2dd5ed
      );
 }
 
@@ -30,6 +28,16 @@ body {
     border-bottom: 2px solid rgba(0,0,0,0.4);
 }
 
+.inramad {
+    border: 2px dotted black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.font_arial {
+    font-family: Arial, sans-serif;
+}
+
 .font {
     font-family: 'Roboto', sans-serif;
 }
@@ -45,13 +53,28 @@ body {
 }
 
 .s0 {
-    font-size: 27px;
+    font-size: 22px;
 }
 
 .s1 {
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .s2 {
-    font-size: 20px;
+    font-size: 18px;
+}
+
+.white {
+    color: white;
+}
+
+.natur_cont {
+    background: rgba(0,0,0,0.4);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.remove_underline {
+    text-decoration: none;
 }
